@@ -52,7 +52,6 @@ class ShoppingList extends StatelessWidget {
         return ListTile(
           leading: Icon(shoppingItems[index]["icon"]),
           title: Text(shoppingItems[index]["name"]),
-          // You can add more details or actions for each item here
         );
       },
     );
